@@ -1,2 +1,2 @@
 # sinatra-angularjs
-A basic sample of Angularjs with Sinatra REST APIs
+A basic sample of Angularjs with Sinatra REST APIs.
