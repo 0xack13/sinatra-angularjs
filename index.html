@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+  <head>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body ng-controller="MyCtrl">
+    <button ng-click="loadData()">Load Data From Server</button>
+    <ul>
+         <li ng-repeat="item in posts">Hello! {{item}}: {{item.name.$}}</li>
+    </ul>
+  <li ng-repeat="(key, val) in posts">
+    {{key}}: {{val}}
+  </li>
+
+
+<li ng-repeat="p in posts">
+    {{p.age}}: {{p}}
+  </li>
+  </body>
+
+</html>
